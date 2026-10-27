@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Ilustração de smartphones modernos acompanhados de fone sem fio e cabo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#17181C"/>
+      <stop offset="0.5" stop-color="#0B0C0E"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="key" cx="0.5" cy="0.4" r="0.62">
+      <stop offset="0" stop-color="#D7AE55" stop-opacity="0.26"/>
+      <stop offset="0.5" stop-color="#D7AE55" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#D7AE55" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rim" cx="0.18" cy="0.12" r="0.7">
+      <stop offset="0" stop-color="#C5C8CC" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#C5C8CC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#9BA0A6"/>
+      <stop offset="0.35" stop-color="#E4E7EA"/>
+      <stop offset="0.62" stop-color="#8C9197"/>
+      <stop offset="1" stop-color="#5A5F65"/>
+    </linearGradient>
+    <linearGradient id="steelSoft" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#3A3D42"/>
+      <stop offset="0.5" stop-color="#23262A"/>
+      <stop offset="1" stop-color="#15171A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#8E6B24"/>
+      <stop offset="0.32" stop-color="#F1D58A"/>
+      <stop offset="0.6" stop-color="#D7AE55"/>
+      <stop offset="1" stop-color="#8E6B24"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#1D2026"/>
+      <stop offset="0.5" stop-color="#0D0F12"/>
+      <stop offset="1" stop-color="#070809"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D7AE55" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#D7AE55" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#C5C8CC" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="vign" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050505" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#bg)"/>
+  <rect width="800" height="560" fill="url(#grid)"/>
+  <rect width="800" height="560" fill="url(#rim)"/>
+  <rect width="800" height="560" fill="url(#key)"/>
+
+  <g>
+    <rect x="0" y="448" width="800" height="2" fill="url(#fade)" opacity="0.5"/>
+    <rect x="0" y="450" width="800" height="110" fill="#070708"/>
+    <ellipse cx="400" cy="452" rx="300" ry="26" fill="#D7AE55" opacity="0.07"/>
+  </g>
+  <g stroke="#D7AE55" stroke-opacity="0.3" fill="none" stroke-width="1.4" transform="translate(620 96) scale(1 1)">
+    <path d="M0 0h46l18 18h52"/>
+    <path d="M0 26h30l16-16h40"/>
+    <path d="M0 52h58l14 14h38"/>
+    <circle cx="116" cy="18" r="3" fill="#D7AE55" stroke="none"/>
+    <circle cx="86" cy="10" r="3" fill="#D7AE55" stroke="none"/>
+    <circle cx="124" cy="66" r="3" fill="#D7AE55" stroke="none"/>
+  </g>
+
+  <!-- back phone -->
+  <g transform="translate(168 132) rotate(-9)">
+    <rect x="0" y="0" width="148" height="290" rx="26" fill="url(#steelSoft)" stroke="#C5C8CC" stroke-opacity="0.28" stroke-width="2"/>
+    <rect x="9" y="9" width="130" height="272" rx="20" fill="url(#screen)"/>
+    <circle cx="36" cy="40" r="13" fill="#0C0D0F" stroke="#D7AE55" stroke-opacity="0.4" stroke-width="2"/>
+    <circle cx="36" cy="72" r="13" fill="#0C0D0F" stroke="#C5C8CC" stroke-opacity="0.2" stroke-width="2"/>
+  </g>
+  <!-- hero phone -->
+  <g transform="translate(300 96)">
+    <rect x="0" y="0" width="172" height="330" rx="30" fill="#0A0B0C" stroke="url(#steel)" stroke-width="3"/>
+    <rect x="10" y="10" width="152" height="310" rx="22" fill="url(#screen)"/>
+    <rect x="10" y="10" width="152" height="310" rx="22" fill="#C5C8CC" opacity="0.05"/>
+    <rect x="62" y="22" width="48" height="7" rx="3.5" fill="#1C1F23"/>
+    <!-- on-screen UI -->
+    <g opacity="0.95">
+      <rect x="30" y="58" width="112" height="60" rx="10" fill="#D7AE55" opacity="0.18" stroke="#D7AE55" stroke-opacity="0.45"/>
+      <rect x="42" y="74" width="60" height="7" rx="3.5" fill="#F1D58A" opacity="0.8"/>
+      <rect x="42" y="90" width="38" height="6" rx="3" fill="#C5C8CC" opacity="0.45"/>
+      <g fill="#C5C8CC" opacity="0.22">
+        <rect x="30" y="134" width="52" height="52" rx="12"/>
+        <rect x="90" y="134" width="52" height="52" rx="12"/>
+        <rect x="30" y="198" width="52" height="52" rx="12"/>
+        <rect x="90" y="198" width="52" height="52" rx="12"/>
+      </g>
+      <rect x="30" y="134" width="52" height="52" rx="12" fill="none" stroke="#D7AE55" stroke-opacity="0.55" stroke-width="1.6"/>
+      <rect x="52" y="272" width="68" height="7" rx="3.5" fill="#C5C8CC" opacity="0.3"/>
+    </g>
+  </g>
+  <!-- front-angled phone -->
+  <g transform="translate(470 152) rotate(10)">
+    <rect x="0" y="0" width="136" height="262" rx="24" fill="url(#steelSoft)" stroke="#C5C8CC" stroke-opacity="0.3" stroke-width="2"/>
+    <rect x="9" y="9" width="118" height="244" rx="18" fill="url(#screen)"/>
+    <rect x="26" y="40" width="84" height="6" rx="3" fill="#D7AE55" opacity="0.5"/>
+    <rect x="26" y="58" width="56" height="5" rx="2.5" fill="#C5C8CC" opacity="0.25"/>
+    <rect x="26" y="84" width="84" height="52" rx="8" fill="#C5C8CC" opacity="0.08"/>
+  </g>
+  <!-- earbuds case -->
+  <g transform="translate(606 342)">
+    <rect x="0" y="0" width="86" height="68" rx="18" fill="url(#steelSoft)" stroke="url(#steel)" stroke-width="2"/>
+    <path d="M4 24h78" stroke="#D7AE55" stroke-opacity="0.45" stroke-width="2"/>
+    <circle cx="43" cy="48" r="5" fill="#D7AE55" opacity="0.7"/>
+  </g>
+  <!-- braided cable -->
+  <path d="M120 416c56-34 104 16 160-6s88-52 148-30 92 44 150 26" fill="none" stroke="url(#steel)" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+  <rect x="100" y="404" width="30" height="22" rx="6" fill="url(#steel)" opacity="0.8"/>
+  <rect width="800" height="560" fill="url(#vign)"/>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hometechsolucoes.vercel.app/sitemap.xml

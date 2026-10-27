@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Ilustração de câmera de segurança apontada para uma residência com painel de monitoramento">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#17181C"/>
+      <stop offset="0.5" stop-color="#0B0C0E"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="key" cx="0.5" cy="0.4" r="0.62">
+      <stop offset="0" stop-color="#D7AE55" stop-opacity="0.26"/>
+      <stop offset="0.5" stop-color="#D7AE55" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#D7AE55" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rim" cx="0.18" cy="0.12" r="0.7">
+      <stop offset="0" stop-color="#C5C8CC" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#C5C8CC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#9BA0A6"/>
+      <stop offset="0.35" stop-color="#E4E7EA"/>
+      <stop offset="0.62" stop-color="#8C9197"/>
+      <stop offset="1" stop-color="#5A5F65"/>
+    </linearGradient>
+    <linearGradient id="steelSoft" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#3A3D42"/>
+      <stop offset="0.5" stop-color="#23262A"/>
+      <stop offset="1" stop-color="#15171A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#8E6B24"/>
+      <stop offset="0.32" stop-color="#F1D58A"/>
+      <stop offset="0.6" stop-color="#D7AE55"/>
+      <stop offset="1" stop-color="#8E6B24"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#1D2026"/>
+      <stop offset="0.5" stop-color="#0D0F12"/>
+      <stop offset="1" stop-color="#070809"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D7AE55" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#D7AE55" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#C5C8CC" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="vign" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050505" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#bg)"/>
+  <rect width="800" height="560" fill="url(#grid)"/>
+  <rect width="800" height="560" fill="url(#rim)"/>
+  <rect width="800" height="560" fill="url(#key)"/>
+
+  <g>
+    <rect x="0" y="466" width="800" height="2" fill="url(#fade)" opacity="0.5"/>
+    <rect x="0" y="468" width="800" height="92" fill="#070708"/>
+    <ellipse cx="400" cy="470" rx="300" ry="26" fill="#D7AE55" opacity="0.07"/>
+  </g>
+  <g stroke="#D7AE55" stroke-opacity="0.3" fill="none" stroke-width="1.4" transform="translate(30 340) scale(1 1)">
+    <path d="M0 0h46l18 18h52"/>
+    <path d="M0 26h30l16-16h40"/>
+    <path d="M0 52h58l14 14h38"/>
+    <circle cx="116" cy="18" r="3" fill="#D7AE55" stroke="none"/>
+    <circle cx="86" cy="10" r="3" fill="#D7AE55" stroke="none"/>
+    <circle cx="124" cy="66" r="3" fill="#D7AE55" stroke="none"/>
+  </g>
+
+  <!-- house outline behind -->
+  <g stroke="#C5C8CC" stroke-opacity="0.16" stroke-width="2.5" fill="none">
+    <path d="M482 300V176l118-74 118 74v124"/>
+    <path d="M540 300v-70h52v70"/>
+  </g>
+  <!-- camera -->
+  <g transform="translate(130 110)">
+    <!-- wall mount -->
+    <rect x="236" y="4" width="16" height="44" rx="6" fill="url(#steelSoft)"/>
+    <rect x="214" y="0" width="60" height="14" rx="6" fill="url(#steel)" opacity="0.8"/>
+    <path d="M244 44l-44 26" stroke="url(#steel)" stroke-width="12" stroke-linecap="round"/>
+    <!-- body -->
+    <g transform="rotate(-14 150 110)">
+      <rect x="54" y="62" width="208" height="96" rx="42" fill="url(#steelSoft)" stroke="url(#steel)" stroke-width="2.5"/>
+      <rect x="66" y="74" width="60" height="72" rx="30" fill="#0A0B0C"/>
+      <!-- lens -->
+      <circle cx="78" cy="110" r="40" fill="#0A0B0C" stroke="url(#steel)" stroke-width="3"/>
+      <circle cx="78" cy="110" r="27" fill="#121519" stroke="#D7AE55" stroke-opacity="0.65" stroke-width="2.5"/>
+      <circle cx="78" cy="110" r="13" fill="#05070A"/>
+      <circle cx="70" cy="101" r="5" fill="#F1D58A" opacity="0.65"/>
+      <!-- IR leds -->
+      <g fill="#D7AE55" opacity="0.5">
+        <circle cx="140" cy="88" r="5"/><circle cx="160" cy="88" r="5"/>
+        <circle cx="140" cy="132" r="5"/><circle cx="160" cy="132" r="5"/>
+      </g>
+      <rect x="186" y="96" width="60" height="28" rx="14" fill="#0D0E10" stroke="#C5C8CC" stroke-opacity="0.18"/>
+      <circle cx="216" cy="110" r="6" fill="#D7AE55" opacity="0.85"/>
+    </g>
+  </g>
+  <!-- vision cone -->
+  <path d="M190 212L24 86v300z" fill="url(#key)" opacity="0.5"/>
+  <path d="M190 212L24 86M190 212L24 386" stroke="#D7AE55" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="6 8"/>
+  <!-- monitoring panel -->
+  <g transform="translate(470 318)">
+    <rect x="0" y="0" width="266" height="132" rx="14" fill="#0B0C0E" stroke="url(#steel)" stroke-width="2.5"/>
+    <rect x="12" y="12" width="242" height="108" rx="8" fill="url(#screen)"/>
+    <g>
+      <rect x="24" y="24" width="106" height="60" rx="6" fill="#C5C8CC" opacity="0.08" stroke="#D7AE55" stroke-opacity="0.5"/>
+      <circle cx="40" cy="36" r="4" fill="#D7AE55"/>
+      <path d="M48 70c10-16 22-22 34-22s24 8 32 22" fill="none" stroke="#C5C8CC" stroke-opacity="0.3" stroke-width="2"/>
+      <circle cx="82" cy="46" r="9" fill="none" stroke="#C5C8CC" stroke-opacity="0.3" stroke-width="2"/>
+      <rect x="140" y="24" width="106" height="28" rx="6" fill="#C5C8CC" opacity="0.07"/>
+      <rect x="140" y="56" width="106" height="28" rx="6" fill="#C5C8CC" opacity="0.07"/>
+      <rect x="24" y="92" width="222" height="20" rx="6" fill="#D7AE55" opacity="0.14"/>
+      <rect x="34" y="99" width="70" height="6" rx="3" fill="#F1D58A" opacity="0.7"/>
+    </g>
+  </g>
+  <!-- lock badge -->
+  <g transform="translate(620 170)">
+    <path d="M42 0L4 13v34c0 22 17 40 38 49 21-9 38-27 38-49V13z" fill="#0C0D0F" stroke="url(#gold)" stroke-width="2.5"/>
+    <path d="M30 46v-9a12 12 0 0124 0v9" fill="none" stroke="url(#gold)" stroke-width="3.5"/>
+    <rect x="26" y="46" width="32" height="26" rx="5" fill="url(#gold)" opacity="0.85"/>
+  </g>
+  <rect width="800" height="560" fill="url(#vign)"/>
+</svg>

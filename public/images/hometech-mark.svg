@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="Escudo HomeTech com smartphone">
+  <defs>
+    <linearGradient id="ht-silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#72777D"/>
+      <stop offset="0.22" stop-color="#E9ECEF"/>
+      <stop offset="0.46" stop-color="#9BA0A6"/>
+      <stop offset="0.68" stop-color="#F3F5F7"/>
+      <stop offset="1" stop-color="#5E6367"/>
+    </linearGradient>
+    <linearGradient id="ht-gold" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#8E6B24"/>
+      <stop offset="0.3" stop-color="#F1D58A"/>
+      <stop offset="0.58" stop-color="#D7AE55"/>
+      <stop offset="1" stop-color="#8E6B24"/>
+    </linearGradient>
+    <linearGradient id="ht-glass" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#2A2A2A"/>
+      <stop offset="0.55" stop-color="#0C0C0C"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+  </defs>
+  <path d="M60 3 L7 22 V70 C7 101.5 30.5 124 60 137 C89.5 124 113 101.5 113 70 V22 Z" fill="url(#ht-silver)"/>
+  <path d="M60 13 L17 28.5 V70 C17 95 36 113.8 60 125.6 C84 113.8 103 95 103 70 V28.5 Z" fill="url(#ht-glass)"/>
+  <path d="M60 13 L17 28.5 V70 C17 95 36 113.8 60 125.6 V13 Z" fill="#FFFFFF" opacity="0.045"/>
+  <rect x="44.6" y="37.5" width="30.8" height="64" rx="6.4" fill="none" stroke="url(#ht-gold)" stroke-width="3.4"/>
+  <rect x="54.4" y="44.6" width="11.2" height="2.6" rx="1.3" fill="url(#ht-gold)"/>
+  <circle cx="60" cy="93.6" r="2.7" fill="url(#ht-gold)"/>
+</svg>
